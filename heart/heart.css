@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .heart {
+    /* border: 1px solid black; */
+    
+    display: inline-block;
+    position: relative;
+    margin: 200px
+  }
+  .heart:hover {
+    transform: scale(1.5);
+  }
+  .heart>.left {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100%;
+    right: 100%;
+    transform: rotate(45deg) translateX(75px);
+    border-radius: 50% 0 0 50%;
+    background: red;
+  }
+  .heart>.right {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  bottom:100%;
+    left:100px;
+    transform: rotate(45deg) translateY(75px);
+    border-radius: 50% 50% 0 0;
+    background: red;
+  }
+  .heart>.bottom {
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(45deg);
+    background: red;
+  }
