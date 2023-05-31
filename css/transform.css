@@ -1,0 +1,22 @@
+/* 绝对居中写法 translate--位移*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+  }
+  .wrapper {
+    border: 1px solid black;
+    position: relative;
+    height: 500px;
+  }
+  #demo {
+    border: 1px solid red;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* scale：缩放 */
